@@ -13,6 +13,7 @@ class EmailParser
   end
   
   def parse
+    arr = []
     emails.split.map do |email|
       email.split(",")
     end
