@@ -14,7 +14,7 @@ class EmailParser
   
   def parse
     emails.split.map do |email|
-      email
+      email.split
   end
   
 end 
