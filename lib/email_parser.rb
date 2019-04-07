@@ -17,7 +17,7 @@ class EmailParser
     emails.split.each do |email|
       arr << email.split(",")
     end
-    arr.uniq
+    arr.uniq.flatten
   end
   
 end 
