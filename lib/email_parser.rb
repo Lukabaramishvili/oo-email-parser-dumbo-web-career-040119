@@ -13,8 +13,8 @@ class EmailParser
   end
   
   def parse
-    arr = []
-    emails.split.collect
+    emails.split.map do |email|
+      email
   end
   
 end 
