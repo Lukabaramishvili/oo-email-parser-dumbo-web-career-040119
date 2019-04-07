@@ -8,7 +8,10 @@ class EmailParser
   attr_accessor 
   
   def parse(emails)
-    
+    array = []
+    emails.each.split(" ") do |email|
+      binding.pry
+      array << email
   end
   
 end 
