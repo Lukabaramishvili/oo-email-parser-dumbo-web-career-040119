@@ -14,10 +14,10 @@ class EmailParser
   
   def parse
     arr = []
-    emails.split.map do |email|
-      email.split(",")
+    emails.split.each do |email|
+      arr << email.split(",")
     end
-    emails.uniq.flatten
+    arr.uniq
   end
   
 end 
