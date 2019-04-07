@@ -6,14 +6,14 @@ require 'pry'
 
 class EmailParser 
   
-  attr_accessor :email
+  attr_accessor :emails
   
-  def initialize(email)
-    @email = email 
+  def initialize(emails)
+    @emails = emails 
   end
   
   def parse
-    email.
+    email = emails.split()
   end
   
 end 
