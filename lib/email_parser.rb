@@ -14,7 +14,7 @@ class EmailParser
   
   def parse
     arr = []
-    emails.each do
+    emails.split.collect
   end
   
 end 
