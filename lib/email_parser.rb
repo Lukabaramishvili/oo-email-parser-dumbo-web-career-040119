@@ -11,7 +11,6 @@ class EmailParser
   def parse(emails)
     array = []
     emails.each.split(" ") do |email|
-      binding.pry
       array << email
     end
   end
