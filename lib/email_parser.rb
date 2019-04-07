@@ -14,6 +14,7 @@ class EmailParser
   
   def parse
     new_emails = emails.split(/ |, |,/)
+    new_emails.select do |email| 
   end
   
 end 
