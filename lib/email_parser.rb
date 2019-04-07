@@ -13,10 +13,8 @@ class EmailParser
   end
   
   def parse
-    new_emails = emails.split(/ |, |,/)
-    new_emails.select do |email| != ""
-    return new_emails
-  end
+    arr = []
+    emails.each do
   end
   
 end 
