@@ -13,6 +13,7 @@ class EmailParser
     emails.each.split(" ") do |email|
       binding.pry
       array << email
+    end
   end
   
 end 
